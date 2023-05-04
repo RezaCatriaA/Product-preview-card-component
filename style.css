@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+}
+
+.card {
+  margin: 8% auto;
+  width: 500px;
+  height: 450px;
+  display: flex;
+}
+
+.kiri img {
+  width: 250px;
+  height: 450px;
+}
+
+.kanan {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.dollars:before {
+  content: '$';
+}
+
+.coret:before {
+  content: '$';
+}
+
+.coret {
+  margin-left: 10px;
+  color: rgb(44, 46, 45);
+  text-decoration: line-through;
+}
+
+.dollars {
+  color: rgb(70, 190, 130);
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.kanan button {
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
